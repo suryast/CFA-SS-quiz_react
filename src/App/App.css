@@ -1,0 +1,38 @@
+.App {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 5rem;
+    font-family: sans-serif;
+    background-color: smokewhite;
+    border: 1px solid black;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.App.h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #404040;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color:. white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
