@@ -13,7 +13,7 @@ class MultiChoice extends Component {
     return (
       <CardActions>
         {this.props.answers.map((answer, i) => <FlatButton style={{
-          backgroundColor: '#ffd699'
+          backgroundColor: '#ffd149'
         }}
           label={answer} key={i} onClick={() => this.props.updateSelected(answer)}/>)}
         <br/>

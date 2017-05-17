@@ -80,7 +80,7 @@ class App extends Component {
                 <Question current_question={this.quiz_data[this.state.progress].question} />
                 <Progress
                   style={{
-                    backgroundColor: '#FF980grey',
+                    backgroundColor: '#FF980',
                   }}
                   completed={quizProgress} />
                 <MultiChoice
